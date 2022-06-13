@@ -15,8 +15,8 @@ dates = {'Battle of Solicinium': 367, 'Battle of Ostia': 409, 'Battle of Cartage
 # number of exams
 for quiz_number in range(30):
     # creating quiz and answer files
-    quiz_exam = open(f'History_Quiz_{quiz_number + 1}.txt', 'w')
-    quiz_answers = open(f'History_Quiz_{quiz_number + 1}_answers.txt', 'w')
+    quiz_exam = open(f'exam\\History_Quiz_{quiz_number + 1}.txt', 'w')
+    quiz_answers = open(f'answer\\History_Quiz_{quiz_number + 1}_answers.txt', 'w')
 
     # heading of quiz
     quiz_exam.write(f'Name:\nDate:\nGroup:\nGrade:\n\n')
